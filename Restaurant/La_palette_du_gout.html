@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Unbounded:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../main.css" />
+  </head>
+
+  <header>
+    <nav>
+      <div>
+        <div class="Retour">
+          <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+        <div class="logoResto">
+          <img
+            class="logorestoTaille"
+            src="../Images_et_textes_Ohmyfood/images/logo/ohmyfood.png"
+            alt="logo Oh my food"
+          />
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <img
+      class="imgResto"
+      src="../Images_et_textes_Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+      alt="La palette du gout"
+    />
+
+    <section class="carte">
+      <div class="Titre">
+        <h1 class="titreCarte">La palette du goût</h1>
+        <i id="coeurResto" class="fa-regular fa-heart nobg"></i>
+      </div>
+      <div class="positionPlat">
+        <div>
+          <h2 class="EPD">Entrées</h2>
+        </div>
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">fricasé d'escargot</h3>
+            <p class="supPlat">Au piment d'Espelette</p>
+            <span class="prix">25€</span>
+          </div>
+        </article>
+
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Foie gras de canard mi-cuit</h3>
+            <p class="supPlat">Et ses copeaux de truffe noire</p>
+            <span class="prix">35€</span>
+          </div>
+        </article>
+
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Œuf au plat</h3>
+            <p class="supPlat">Assaisonné à la truffe sur lit de caviar</p>
+            <span class="prix">35€</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="positionPlat">
+        <div>
+          <h2 class="EPD">Plats</h2>
+        </div>
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Filet de bœuf aux herbes</h3>
+            <p class="supPlat">Accompagné de sa ribambelle de légumes</p>
+            <span class="prix">40€</span>
+          </div>
+        </article>
+
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Parmentier de queue de bœuf</h3>
+            <p class="supPlat">À la truffe noire sur sa purée de panais</p>
+            <span class="prix">35€</span>
+          </div>
+        </article>
+
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Filet de turbot</h3>
+            <p class="supPlat">Aux agrumes</p>
+            <span class="prix">44€</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="positionPlat">
+        <div>
+          <h2 class="EPD">DESSERTS</h2>
+        </div>
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Paris-Brest</h3>
+            <p class="supPlat">Revisité</p>
+            <span class="prix">18€</span>
+          </div>
+        </article>
+
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Macaron au chocolat d'exception</h3>
+            <p class="supPlat">Et glace à la vanille de Madagascar</p>
+            <span class="prix">22€</span>
+          </div>
+        </article>
+
+        <article>
+          <div class="encadrementRestaurant">
+            <h3 class="titrePlat">Mousse au chocolat</h3>
+            <p class="supPlat">Au piment d'Espelette et à la truffe noire</p>
+            <span class="prix">23€</span>
+          </div>
+        </article>
+      </div>
+      <div class="positionButtonCommande">
+        <button id="CommandeBtn">Commander</button>
+      </div>
+    </section>
+  </main>
+  <footer class="fondFooter">
+    <h2 class="titreFooter">Ohmyfood</h2>
+    <ul class="PositionFooter">
+      <li>
+        <a href="#" class="list__link link__bold">
+          <i class="fa-solid fa-utensils"></i>
+          Proposer un restaurant
+        </a>
+      </li>
+      <li>
+        <a href="#" class="list__link link__bold hand">
+          <i class="fa-solid fa-handshake-angle" id="hand"></i>
+          Devenir partenaire
+        </a>
+      </li>
+      <li>
+        <a href="#" class="list__link colorFooter">Mentions légales</a>
+      </li>
+
+      <li>
+        <a href="mailto:contact@ohmyfood.com" class="list__link">Contact</a>
+      </li>
+    </ul>
+  </footer>
+</html>
