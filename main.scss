@@ -1,4 +1,5 @@
-@import "./accueil.scss";
-@import "./utils/mixins.scss";
-@import "./utils/variable.scss";
-@import "./restaurant.scss";
+@import"./utils/_variable";
+@import "./utils/_mixins.scss";
+@import "./_accueil.scss";
+@import "./_restaurant.scss";
+

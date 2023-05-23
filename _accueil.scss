@@ -36,7 +36,7 @@ p#decouvrir {
 .titreFonction {
   display: flex;
   justify-content: flex-start;
-  margin-left: 21px;
+  margin-left: 30px;
 }
 .categorie {
   display: flex;
@@ -86,11 +86,12 @@ p#decouvrir {
   font-weight: bold;
   text-align: center;
   margin-top: 16px;
-  width: 82%;
+  width: 90%;
   font-size: 14px;
   height: 197px;
   margin-bottom: 12px;
-  background: $white;
+  background-color: $white;
+  margin-left: 13px;
 }
   
 .image {
@@ -135,25 +136,24 @@ p#decouvrir {
   top: 161px;
 }
 #titreResto {
-  margin-left: 8%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+  padding-top: 15px;
 }
 
 a {
   text-decoration: none;
-  color: black;
-}
-.fondFooter {
-  background-color: #353535;
   color: $white;
 }
+
 li {
   list-style-type: none;
   color: $white;
   margin-top: 7px;
 }
-#colorFooter {
-  color: white;
-}
+
 button#reservationBtn {
   font-weight: bold;
   font-size: 16px;
@@ -174,15 +174,24 @@ button#reservationBtn {
   opacity: 0.8;
   box-shadow: 0px 8px 27px 0px rgba(0, 0, 0, 0.3);
 }
+span {
+  font-weight: bold;
+}
+
 .titreFooter {
   padding-top: 13px;
   margin-left: 34px;
   margin-top: 0;
   font-size: 14px;
 }
-span {
-  font-weight: bold;
+.fondFooter {
+  background-color: #353535;
+  color: $white;
 }
+ul.PositionFooter {
+  margin: 0;
+}
+
 
 
 
@@ -210,15 +219,13 @@ button#reservationBtn {
   margin-left: 41%;
 }
 .titreFonction {
-  margin-left: 2rem;
+  margin-left: 0;
   display: flex;
   justify-content: flex-start;
   font-weight: 700;
   font-size: 17px;
 }
-#titreResto {
-  margin-right: 58%;
-}
+
 
 .encadrement {
   position: relative;
@@ -254,8 +261,8 @@ button#reservationBtn {
   
 }
 
-.titreResto {
-  margin-right: 25%;
+#titreResto {
+  margin-left: -55%;
 }
 
 .encadrementResto {
@@ -289,31 +296,15 @@ section.Fonctionnement {
   flex-flow: row wrap;
   align-items: center;
   width: 64%;
-  gap: 45px;
+  gap: 22px;
   justify-content: center;
 }
 
-ul.PositionFooter {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 29px;
-  padding-top: 16px;
-}
-.fondFooter {
-  background-color: $darkgrey;
-  color: $white;
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 a#colorRestaurant {
   color: white;
 }
-.titreFooter {
-  margin-right: 48px;
-  margin-left: 16px;
-  margin-top: -5px;
-  font-size: 17px;
-}
+
 .coeur {
   position: absolute;
   right: 15px;
@@ -338,8 +329,24 @@ p#decouvrir {
   font-size: 18px;
   margin-top: -17px;
 }
-.positionCardResto {
-  margin-left: 0%;
+.titreFooter {
+  margin-right: 48px;
+  margin-left: 16px;
+  margin-top: 24px;
+  font-size: 17px;
 }
+ul.PositionFooter {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 29px;
+  padding-top: 16px;
+}
+.fondFooter {
+  background-color: $darkgrey;
+  color: $white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 }
 
