@@ -143,6 +143,7 @@ p#decouvrir {
   position: absolute;
   right: 15px;
   top: 161px;
+  color: black;
 }
 
 #titreResto {
@@ -313,6 +314,7 @@ ul.PositionFooter {
     position: absolute;
     right: 15px;
     top: 196px;
+    color: black;
   }
   .ville {
     width: 100%;
