@@ -13,13 +13,16 @@
   align-items: center;
 }
 .logorestoTaille {
-    width: 65%;
-      
+  width: 157px  
+
   }
 .Retour {
   position: absolute;
   left: 10px;
   top: 20px;
+}
+a#colorretour {
+  color: black;
 }
 
 .carte {
@@ -114,12 +117,12 @@ button#CommandeBtn {
   margin-top: 19px;
 }
 @media screen and (min-width: 1024px) {
-  body {
+body {
     margin: 0;
     font-family: "roboto", sans-serif;
-  }
-  .logorestoTaille {
-    width: 13%;
+}
+.logorestoTaille {
+    width: 157px  
 }
 .imgResto {
   width: 100%;
@@ -156,8 +159,7 @@ i#coeurResto {
 .positionPlat {
   display: flex;
   flex-direction: column;
-  width: 54%;
-  margin-left: 17rem;
+  margin-left: 5rem;
 }
 button#CommandeBtn {
   font-weight: bold;
@@ -176,11 +178,9 @@ button#CommandeBtn {
   display: flex;
     justify-content: center;
 }
- }
- @media screen and (min-width: 1440px)  { 
-  .logorestoTaille {
-    width: 23%;
 }
+
+@media screen and (min-width: 1440px) {
   .carte {
     position: relative;
     top: -64px;
@@ -189,28 +189,7 @@ button#CommandeBtn {
     background-color: #f7f7f7;
     height: 100%;
     margin-left: 250px;
-    right: 13%;
+    right: 14%;
     width: 91%;
 }
-i#coeurResto {
-  padding-top: 5px;
-  padding-left: 33rem;
 }
-.positionPlat {
-  display: flex;
-  flex-direction: column;
-  width: 54%;
-  margin-left: 23rem;
-}
-
- }
- @media screen and (min-width: 768px)  {
-  i#coeurResto {
-    position: absolute;
-    top: 3rem;
-    left: 30rem;
-}
-.logorestoTaille {
-  width: 17%;
-}
-  }
