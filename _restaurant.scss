@@ -32,6 +32,7 @@ a#colorretour {
   margin-bottom: -60px;
   background-color: #f7f7f7;
   height: 100%;
+  
 }
 .carteNote {
   position: relative;
@@ -49,14 +50,25 @@ a#colorretour {
 .titreCarte {
   font-size: 20px;
   padding-top: 23px;
-  margin-right: 33px;
+  margin-right: 7px;
   font-family: Shrikhand;
 }
-i#coeurResto {
-  position: absolute;
-  top: 3rem;
-  left: 16rem;
+.coeurResto {
+  margin-top: 39px;
+  font-size: 25px;
 }
+i.fa-solid.fa-heart.bg {
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+  background: linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
+  background: -webkit- linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  left: -31px;
+  top: 0px;
+}
+
 
 .encadrementRestaurant {
   position: relative;
@@ -88,7 +100,7 @@ i#coeurResto {
 }
 .prix {
   position: absolute;
-  right: 9px;
+  right: 25px;
   top: 25px;
   font-size: 12px;
 }
@@ -99,6 +111,7 @@ h2.EPD  {
   border-bottom: 2px solid $green;
   width: 28px;
 }
+
 button#CommandeBtn {
   font-weight: bold;
   color: $white;
@@ -116,6 +129,36 @@ button#CommandeBtn {
   margin-left: 12%;
   margin-top: 19px;
 }
+.validation {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 12px;
+  background-color: #99E2D0;
+  border-radius: 0 15px 12px 0;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  right: 7px;
+ 
+}
+.encadrementRestaurant:hover {
+  .validation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: valid 500ms;
+  transform-origin: 100%;
+  right: 0;
+  animation-fill-mode: forwards;
+}
+}
+
+
+
 @media screen and (min-width: 1024px) {
 body {
     margin: 0;
@@ -128,6 +171,21 @@ body {
   width: 100%;
   height: 28rem;
   object-fit: cover;
+}
+.coeurResto {
+  margin-top: 39px;
+  font-size: 25px;
+}
+i.fa-solid.fa-heart.bg {
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+  background: linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
+  background: -webkit- linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  left: -31px;
+  top: 0px;
 }
 .carte {
   position: relative;
@@ -152,14 +210,27 @@ body {
   justify-content: center;
   flex-direction: row;
 }
-i#coeurResto {
-  padding-top: 5px;
-  padding-left: 20rem;
-}
+
 .positionPlat {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
+  animation-name: moveInleft;
+  animation-duration: 3s;
+}
+.positionPlat2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  animation-name: moveInleft;
+  animation-duration: 10s;
+}
+.positionPlat3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  animation-name: moveInleft;
+  animation-duration: 20s;
 }
 button#CommandeBtn {
   font-weight: bold;
@@ -174,12 +245,27 @@ button#CommandeBtn {
   height: 40px;
   margin: 10px;
 }
+button#CommandeBtn:hover {
+  opacity: 0.8;
+  box-shadow: 0px 8px 27px 0px rgba(0, 0, 0, 0.3);
+}
 .positionButtonCommande {
   display: flex;
     justify-content: center;
 }
 }
-
+@media screen and (min-width: 768px)
+{
+  .positionPlat {
+    margin-left: 100px;
+  }
+  .positionPlat2 {
+    margin-left: 100px;
+  }
+  .positionPlat3 {
+    margin-left: 100px;
+  }
+  }
 @media screen and (min-width: 1440px) {
   .carte {
     position: relative;
@@ -189,7 +275,8 @@ button#CommandeBtn {
     background-color: #f7f7f7;
     height: 100%;
     margin-left: 250px;
-    right: 14%;
+    right: 100px;
     width: 91%;
+    left: -174px;
 }
 }

@@ -1,0 +1,34 @@
+// coeur //
+
+@keyframes heartbg {
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    
+    }
+}
+@keyframes valid {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 60px;
+        }
+        
+    }
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+     }
+    
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+         transform: translate(0);
+     }
+    }
