@@ -223,6 +223,7 @@ span {
   margin-top: 0;
   font-size: 14px;
   font-family: Shrikhand;
+  font-style: italic;
 }
 
 .fondFooter {
@@ -418,6 +419,7 @@ i.fa-solid.fa-heart.bg:hover {
     margin-top: 10px;
     font-size: 17px;
     font-family: Shrikhand;
+    font-style: italic;
   }
   ul.PositionFooter {
     display: flex;
@@ -581,7 +583,7 @@ button#CommandeBtn {
   top: 0px;
   font-size: 12px;
   background-color: #99E2D0;
-  border-radius: 0 15px 12px 0;
+  border-radius: 0 10px 10px 0;
   color: white;
   height: 50px;
   display: flex;
@@ -601,6 +603,21 @@ button#CommandeBtn {
   animation-fill-mode: forwards;
 }
 
+.positionPlat {
+  animation-name: moveInleft;
+  animation-duration: 2s;
+}
+
+.positionPlat2 {
+  animation-name: moveInleft;
+  animation-duration: 4s;
+}
+
+.positionPlat3 {
+  animation-name: moveInleft;
+  animation-duration: 6s;
+}
+
 @media screen and (min-width: 1024px) {
   body {
     margin: 0;
@@ -616,7 +633,7 @@ button#CommandeBtn {
        object-fit: cover;
   }
   .coeurResto {
-    margin-top: 39px;
+    margin-top: 45px;
     font-size: 25px;
   }
   i.fa-solid.fa-heart.bg {
@@ -658,21 +675,21 @@ button#CommandeBtn {
     flex-direction: column;
     margin-left: 5rem;
     animation-name: moveInleft;
-    animation-duration: 3s;
+    animation-duration: 2s;
   }
   .positionPlat2 {
     display: flex;
     flex-direction: column;
     margin-left: 5rem;
     animation-name: moveInleft;
-    animation-duration: 10s;
+    animation-duration: 4s;
   }
   .positionPlat3 {
     display: flex;
     flex-direction: column;
     margin-left: 5rem;
     animation-name: moveInleft;
-    animation-duration: 20s;
+    animation-duration: 6s;
   }
   button#CommandeBtn {
     font-weight: bold;

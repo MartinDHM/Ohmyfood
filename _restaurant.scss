@@ -135,7 +135,7 @@ button#CommandeBtn {
   top: 0px;
   font-size: 12px;
   background-color: #99E2D0;
-  border-radius: 0 15px 12px 0;
+  border-radius: 0 10px 10px 0;
   color: white;
   height: 50px;
   display: flex;
@@ -156,7 +156,18 @@ button#CommandeBtn {
   animation-fill-mode: forwards;
 }
 }
-
+.positionPlat {
+  animation-name: moveInleft;
+  animation-duration: 2s;
+}
+.positionPlat2 {
+  animation-name: moveInleft;
+  animation-duration: 4s;
+}
+.positionPlat3 {
+  animation-name: moveInleft;
+  animation-duration: 6s;
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -173,7 +184,7 @@ body {
   object-fit: cover;
 }
 .coeurResto {
-  margin-top: 39px;
+  margin-top: 45px;
   font-size: 25px;
 }
 i.fa-solid.fa-heart.bg {
@@ -216,21 +227,21 @@ i.fa-solid.fa-heart.bg {
   flex-direction: column;
   margin-left: 5rem;
   animation-name: moveInleft;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .positionPlat2 {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
   animation-name: moveInleft;
-  animation-duration: 10s;
+  animation-duration: 4s;
 }
 .positionPlat3 {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
   animation-name: moveInleft;
-  animation-duration: 20s;
+  animation-duration: 6s;
 }
 button#CommandeBtn {
   font-weight: bold;
