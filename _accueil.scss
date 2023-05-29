@@ -199,7 +199,7 @@ ul.PositionFooter {
 }
 .coeur {
   position: absolute;
-  right: 15px;
+  right: -7px;
   top: 158px;
   color: black;
   font-size: 25px;
@@ -219,7 +219,49 @@ i.fa-solid.fa-heart.bg:hover {
   animation: heartbg;
   opacity: 1;
 }
-
+.loaderContainer {
+  position: fixed;
+  background: $white;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  @include flex;
+  transition: opacity 1s 3s ease-in-out;
+  animation-duration: 5s;
+  z-index: 1;
+  animation: disappear 200ms;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+.point1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: black;
+  opacity: 1;
+  margin: 0 15px;
+  animation: loader infinite 0.3s alternate;
+}
+.point2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: black;
+  opacity: 1;
+  margin: 0 15px;
+  animation: loader infinite 0.3s alternate;
+  animation-delay: 0.05s;
+}
+.point3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: black;
+  opacity: 1;
+  margin: 0 15px;
+  animation: loader infinite 0.3s alternate;
+  animation-delay: 0.1s;
+}
 
 @media screen and (min-width: 1024px)  {
   body {
