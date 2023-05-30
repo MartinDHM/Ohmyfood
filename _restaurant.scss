@@ -1,4 +1,8 @@
-
+.imgResto {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
 .carte {
   position: relative;
   top: -64px;
@@ -53,7 +57,7 @@ i.fa-solid.fa-heart.bg {
   font-weight: bold;
   text-align: center;
   margin-top: 16px;
-  margin-left: 7px;
+  margin-left: 17px;
   width: 76%;
   font-size: 14px;
   height: 8px;
@@ -66,6 +70,10 @@ i.fa-solid.fa-heart.bg {
   margin-bottom: 7px;
   margin-top: -11px;
   font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 25px;
 }
 .supPlat {
   margin: -7px;
@@ -74,12 +82,14 @@ i.fa-solid.fa-heart.bg {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-right: 27px;
 }
 .prix {
   position: absolute;
   right: 25px;
   top: 25px;
   font-size: 12px;
+   
 }
 h2.EPD  {
   font-weight: 300;
@@ -132,21 +142,30 @@ button#CommandeBtn {
   right: 0;
   animation-fill-mode: forwards;
 }
+.prix {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  font-size: 12px;
+  animation: mooveinRight 500ms;
+  animation-fill-mode: forwards; 
+}
+
 }
 .positionPlat {
   animation-name: moveInleft;
   animation-duration: 2s;
-  margin-left: 13px;
+ 
 }
 .positionPlat2 {
   animation-name: moveInleft;
   animation-duration: 4s;
-  margin-left: 13px;
+
 }
 .positionPlat3 {
   animation-name: moveInleft;
   animation-duration: 6s;
-  margin-left: 13px;
+ 
 }
 
 
@@ -193,25 +212,49 @@ i.fa-solid.fa-heart.bg {
   justify-content: center;
   flex-direction: row;
 }
+h2.EPD {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 54px;
+  border-bottom: 2px solid #99e2d0;
+  width: 28px;
+}
+.encadrementRestaurant {
+  position: relative;
+  flex-grow: 1;
+  border-radius: 11px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 21px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 72px;
+  width: 76%;
+  font-size: 14px;
+  height: 8px;
+  margin-bottom: 12px;
+  background: #ffffff;
+  text-align: start;
+}
 
 .positionPlat {
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
+ 
   animation-name: moveInleft;
   animation-duration: 2s;
 }
 .positionPlat2 {
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
+ 
   animation-name: moveInleft;
   animation-duration: 4s;
 }
 .positionPlat3 {
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
+
   animation-name: moveInleft;
   animation-duration: 6s;
 }
@@ -239,15 +282,6 @@ button#CommandeBtn:hover {
 }
 @media screen and (min-width: 768px)
 {
-  .positionPlat {
-    margin-left: 100px;
-  }
-  .positionPlat2 {
-    margin-left: 100px;
-  }
-  .positionPlat3 {
-    margin-left: 100px;
-  }
   .carte {
     position: relative;
     top: -64px;
@@ -255,6 +289,23 @@ button#CommandeBtn:hover {
     margin-bottom: -60px;
     background-color: #f7f7f7;
     height: 100%;
+}
+.encadrementRestaurant {
+  position: relative;
+  flex-grow: 1;
+  border-radius: 11px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 21px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 50px;
+  width: 76%;
+  font-size: 14px;
+  height: 8px;
+  margin-bottom: 12px;
+  background: #ffffff;
+  text-align: start;
 }
 button#CommandeBtn {
   font-weight: bold;
@@ -271,6 +322,13 @@ button#CommandeBtn {
   justify-content: center;
     margin-top: 19px;
 }
+h2.EPD {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 54px;
+  border-bottom: 2px solid #99e2d0;
+  width: 28px;
+}
   }
 @media screen and (min-width: 1440px) {
   .carte {
@@ -282,16 +340,46 @@ button#CommandeBtn {
     height: 100%;
     margin-left: 250px;
     right: 100px;
-    width: 89%;
-    left: -174px;
+    width: 87%;
+    left: -154px;
+}
+.encadrementRestaurant {
+  position: relative;
+  flex-grow: 1;
+  border-radius: 11px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 21px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 14px;
+  width: 45rem;
+  font-size: 14px;
+  height: 8px;
+  margin-bottom: 12px;
+  background: #ffffff;
+  text-align: start;
 }
 .positionPlat {
-  margin-left: 170px;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 .positionPlat2 {
-  margin-left: 170px;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 .positionPlat3 {
-  margin-left: 170px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+h2.EPD {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: -42px;
+  border-bottom: 2px solid #99e2d0;
+  width: 28px;
 }
 }
