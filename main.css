@@ -288,8 +288,6 @@ i.fa-solid.fa-heart.bg:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 1s 3s ease-in-out;
-  animation-duration: 5s;
   z-index: 1;
   animation: disappear 200ms;
   animation-delay: 5s;

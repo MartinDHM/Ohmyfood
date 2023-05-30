@@ -2,9 +2,6 @@ body {
   margin: 0;
   font-family: "roboto", sans-serif;
 }
-img#logoTaille {
-  width: 172px
-}
 
 .iconSpace {
   margin-right: 9px;
@@ -177,21 +174,6 @@ span {
   font-weight: bold;
 }
 
-.titreFooter {
-  padding-top: 13px;
-  margin-left: 34px;
-  margin-top: 0;
-  font-size: 14px;
-  font-family: Shrikhand;
-  font-style: italic;
-}
-.fondFooter {
-  background-color: #353535;
-  color: $white;
-}
-ul.PositionFooter {
-  margin: 0;
-}
 .positionCardResto {
   display: flex;
   flex-direction: column;
@@ -226,8 +208,6 @@ i.fa-solid.fa-heart.bg:hover {
   width: 100%;
   height: 100%;
   @include flex;
-  transition: opacity 1s 3s ease-in-out;
-  animation-duration: 5s;
   z-index: 1;
   animation: disappear 200ms;
   animation-delay: 5s;
@@ -414,25 +394,6 @@ p#decouvrir {
   font-size: 18px;
   margin-top: -17px;
 }
-.titreFooter {
-  margin-right: 48px;
-  margin-left: 16px;
-  margin-top: 10px;
-  font-size: 17px;
-  font-family: Shrikhand;
-  font-style: italic;
-}
-ul.PositionFooter {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 29px;
-  padding-top: 16px;
-}
-.fondFooter {
-  background-color: $darkgrey;
-  color: $white;
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 }
 

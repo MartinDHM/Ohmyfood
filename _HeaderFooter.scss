@@ -1,0 +1,80 @@
+ 
+  /*Header*/
+
+  img#logoTaille {
+    width: 172px
+  }
+  .logoResto {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .logorestoTaille {
+    width: 157px;
+  }
+.Retour {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+  
+  a#colorretour {
+    color: black;
+  }
+  .titreFooter {
+    padding-top: 13px;
+    margin-left: 34px;
+    margin-top: 0;
+    font-size: 14px;
+    font-family: Shrikhand;
+    font-style: italic;
+  }
+  .fondFooter {
+    background-color: #353535;
+    color: $white;
+  }
+  ul.PositionFooter {
+    margin: 0;
+  }
+
+  .titreFooter {
+    margin-right: 48px;
+    margin-left: 16px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Shrikhand;
+    font-style: italic;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .logorestoTaille {
+        margin-right: 51px;
+      width: 157px 
+      
+    }
+    .imgResto {
+      width: 100%;
+      height: 28rem;
+      object-fit: cover;
+    }
+    ul.PositionFooter {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 29px;
+        padding-top: 16px;
+      }
+      .fondFooter {
+        background-color: $darkgrey;
+        color: $white;
+        display: flex;
+        flex-direction: row-reverse;
+      }
+  }
+
+
+
