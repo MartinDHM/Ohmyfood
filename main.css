@@ -40,13 +40,89 @@
     transform: scale(0);
   }
 }
+/*Header*/
+img#logoTaille {
+  width: 172px;
+}
+
+.logoResto {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.logorestoTaille {
+  width: 157px;
+}
+
+.Retour {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+a#colorretour {
+  color: black;
+}
+
+.titreFooter {
+  padding-top: 13px;
+  margin-left: 34px;
+  margin-top: 0;
+  font-size: 14px;
+  font-family: Shrikhand;
+  font-style: italic;
+}
+
+.fondFooter {
+  background-color: #353535;
+  color: #ffffff;
+}
+
+ul.PositionFooter {
+  margin: 0;
+}
+
+.titreFooter {
+  margin-right: 48px;
+  margin-left: 16px;
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: Shrikhand;
+  font-style: italic;
+}
+
+@media screen and (min-width: 1024px) {
+  .logorestoTaille {
+    margin-right: 51px;
+    width: 157px;
+  }
+  .imgResto {
+    width: 100%;
+    height: 28rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  ul.PositionFooter {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 29px;
+    padding-top: 16px;
+  }
+  .fondFooter {
+    background-color: #353535;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
 body {
   margin: 0;
   font-family: "roboto", sans-serif;
-}
-
-img#logoTaille {
-  width: 172px;
 }
 
 .iconSpace {
@@ -109,7 +185,7 @@ p#decouvrir {
   background: #f6f6f6;
 }
 
-.encadrement:hover {
+.encadrement:hover i {
   color: #9356dc;
 }
 
@@ -228,24 +304,6 @@ button#reservationBtn {
 
 span {
   font-weight: bold;
-}
-
-.titreFooter {
-  padding-top: 13px;
-  margin-left: 34px;
-  margin-top: 0;
-  font-size: 14px;
-  font-family: Shrikhand;
-  font-style: italic;
-}
-
-.fondFooter {
-  background-color: #353535;
-  color: #ffffff;
-}
-
-ul.PositionFooter {
-  margin: 0;
 }
 
 .positionCardResto {
@@ -473,58 +531,7 @@ i.fa-solid.fa-heart.bg:hover {
     font-size: 18px;
     margin-top: -17px;
   }
-  .titreFooter {
-    margin-right: 48px;
-    margin-left: 16px;
-    margin-top: 10px;
-    font-size: 17px;
-    font-family: Shrikhand;
-    font-style: italic;
-  }
-  ul.PositionFooter {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 29px;
-    padding-top: 16px;
-  }
-  .fondFooter {
-    background-color: #353535;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row-reverse;
-  }
 }
-.imgResto {
-  width: 100%;
-  height: 170px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.logoResto {
-  width: 100%;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  margin-top: 11px;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.logorestoTaille {
-  width: 157px;
-}
-
-.Retour {
-  position: absolute;
-  left: 10px;
-  top: 20px;
-}
-
-a#colorretour {
-  color: black;
-}
-
 .carte {
   position: relative;
   top: -64px;
@@ -692,16 +699,6 @@ button#CommandeBtn {
   body {
     margin: 0;
     font-family: "roboto", sans-serif;
-  }
-  .logorestoTaille {
-    margin-right: 51px;
-    width: 157px;
-  }
-  .imgResto {
-    width: 100%;
-    height: 28rem;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .coeurResto {
     margin-top: 45px;
