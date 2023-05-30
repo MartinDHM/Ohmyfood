@@ -117,9 +117,7 @@ button#CommandeBtn {
   border-radius: 0 10px 10px 0;
   color: white;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex;
   width: 0;
   right: 7px;
  
