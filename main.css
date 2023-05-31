@@ -302,11 +302,13 @@ button#reservationBtn {
   align-items: center;
   justify-content: center;
   margin-left: 11%;
+  cursor: pointer;
 }
 
 #reservationBtn:hover {
   opacity: 0.8;
   box-shadow: 0px 8px 27px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 span {
@@ -421,6 +423,7 @@ i.fa-solid.fa-heart.bg:hover {
     width: 18%;
     height: 46px;
     margin-left: 41%;
+    cursor: pointer;
   }
   .titreFonction {
     margin-left: 21px;
@@ -539,13 +542,6 @@ i.fa-solid.fa-heart.bg:hover {
     margin-top: -17px;
   }
 }
-.imgResto {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 200px;
-}
-
 .carte {
   position: relative;
   top: -64px;
@@ -562,6 +558,13 @@ i.fa-solid.fa-heart.bg:hover {
   margin-bottom: -60px;
   background-color: #f7f7f7;
   height: 100%;
+}
+
+.imgResto {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
 }
 
 .Titre {
@@ -668,6 +671,7 @@ button#CommandeBtn {
   align-items: center;
   justify-content: center;
   margin-top: 19px;
+  cursor: pointer;
 }
 
 .validation {
@@ -816,10 +820,12 @@ button#CommandeBtn {
     width: 9%;
     height: 40px;
     margin: 10px;
+    cursor: pointer;
   }
   button#CommandeBtn:hover {
     opacity: 0.8;
     box-shadow: 0px 8px 27px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
   }
   .positionButtonCommande {
     display: flex;
@@ -866,6 +872,7 @@ button#CommandeBtn {
     align-items: center;
     justify-content: center;
     margin-top: 19px;
+    cursor: pointer;
   }
   h2.EPD {
     font-weight: 300;
