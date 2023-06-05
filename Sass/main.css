@@ -689,7 +689,7 @@ i.fa-solid.fa-heart.bg {
   font-weight: bold;
   text-align: center;
   margin-top: 16px;
-  margin-left: 17px;
+  margin-left: 19px;
   width: 76%;
   font-size: 14px;
   height: 8px;
@@ -702,11 +702,12 @@ i.fa-solid.fa-heart.bg {
   margin: -7px;
   margin-bottom: 7px;
   margin-top: -11px;
-  font-size: 14px;
+  font-size: 18px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-right: 25px;
+  padding-right: 75px;
+  font-family: "Roboto";
 }
 
 .supPlat {
@@ -716,7 +717,8 @@ i.fa-solid.fa-heart.bg {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-right: 27px;
+  padding-right: 81px;
+  font-family: "Roboto";
 }
 
 .prix {
@@ -732,6 +734,7 @@ h2.EPD {
   margin-left: 12px;
   border-bottom: 2px solid #99e2d0;
   width: 28px;
+  font-family: "Roboto";
 }
 
 .positionButtonCommande {
@@ -755,6 +758,7 @@ button#CommandeBtn {
   justify-content: center;
   margin-top: 19px;
   cursor: pointer;
+  width: 165px;
 }
 
 .validation {
@@ -842,8 +846,9 @@ button#CommandeBtn {
     background-color: #f7f7f7;
     height: 100%;
     margin-left: 250px;
-    right: 21%;
+    right: 20%;
     width: 91%;
+    margin: 0 15% 0 24%;
   }
   .titreCarte {
     font-size: 24px;
@@ -915,6 +920,7 @@ button#CommandeBtn {
     height: 40px;
     margin: 10px;
     cursor: pointer;
+    width: 165px;
   }
   button#CommandeBtn:hover {
     opacity: 0.8;
@@ -967,6 +973,7 @@ button#CommandeBtn {
     justify-content: center;
     margin-top: 19px;
     cursor: pointer;
+    width: 165px;
   }
   h2.EPD {
     font-weight: 300;
@@ -974,6 +981,7 @@ button#CommandeBtn {
     margin-left: 54px;
     border-bottom: 2px solid #99e2d0;
     width: 28px;
+    font-family: "Roboto";
   }
 }
 @media screen and (min-width: 1440px) {
