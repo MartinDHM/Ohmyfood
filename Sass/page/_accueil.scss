@@ -41,7 +41,7 @@ p#decouvrir {
 }
 .Reservation {
   width: 100%;
-  height: 290px;
+  height: 240px;
   text-align: center;
   background-color:$lightgrey ;
   padding: 0;
@@ -53,11 +53,14 @@ p#decouvrir {
 .section-title {
   font-size: 24px;
   font-weight: 700;
+  font-family: auto;
 }
 .titreFonction {
   display: flex;
   justify-content: flex-start;
   margin-left: 30px;
+  font-weight: 700;
+  font-family: auto;
 }
 .categorie {
   display: flex;
@@ -116,7 +119,7 @@ p#decouvrir {
   font-weight: bold;
   text-align: center;
   margin-top: 16px;
-  width: 74%;
+  width: 100%;
   font-size: 14px;
   height: 197px;
   margin-bottom: 12px;
@@ -138,7 +141,8 @@ p#decouvrir {
   margin-top: 4px;
   margin-left: 17px;
   color: black;
-  font-family: 'Shrikhand';
+  font-family: auto;
+  font-weight: bold;
 }
 .nouveau {
   content: "Nouveau";
@@ -168,6 +172,11 @@ p#decouvrir {
   justify-content: flex-start;
   margin-left: 30px;
   padding-top: 15px;
+}
+.sectionRestaurant {
+  padding: 17px 8% 0 8%;
+  width: 84%;
+  background-color: $lightgrey;
 }
 
 a {
@@ -203,6 +212,7 @@ li {
 }
 span {
   font-weight: bold;
+  font-family: auto;
 }
 
 .positionCardResto {
@@ -212,7 +222,7 @@ span {
 }
 .coeur {
   position: absolute;
-  right: -7px;
+  right: -22px;
   top: 158px;
   color: black;
   font-size: 25px;
@@ -282,11 +292,19 @@ i.fa-solid.fa-heart.bg:hover {
   .positionCardResto {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-    margin-left: 41px;
-    gap: 32px;
-    justify-content: center;
+    justify-content: space-between;
+}
+.Reservation {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color:$lightgrey ;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -313,10 +331,15 @@ img {
   justify-content: flex-start;
   font-weight: 700;
   font-size: 17px;
+  font-family: auto;
 }
 .section-title {
   font-size: 24px;
   font-weight: 700;
+  font-family: auto;
+}
+.section-cards {
+  padding: 30px 12%;
 }
 
 .encadrement {
@@ -384,6 +407,11 @@ img {
     height: 239px;
   
 }
+.sectionRestaurant {
+  padding: 16px 0% 0 4%;
+  width: 96%;
+  background-color: #F6F6F6;
+}
 .restaurant {
   background-color: $lightgrey;
   height: 100%;
@@ -392,7 +420,7 @@ img {
   align-items: center;
 }
 section.Fonctionnement {
-  padding: 0 15% 0 15%;
+  padding: 0 1% 0 0%;
 }
 
 .categorie {
@@ -434,6 +462,21 @@ p#decouvrir {
   font-size: 18px;
   margin-top: -17px;
 }
-
 }
-
+@media screen and (min-width: 768px)  {
+  .sectionRestaurant {
+    padding: 16px 4% 0 4%;
+    width: 92%;
+    background-color: #F6F6F6;
+}
+}
+@media screen and (min-width: 1440px)  {
+.sectionRestaurant {
+  padding: 17px 11% 0 17%;
+  width: 72%;
+  background-color: #F6F6F6;
+}
+section.Fonctionnement {
+  padding: 0px 12% 0 14%;
+}
+}
