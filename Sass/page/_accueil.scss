@@ -87,14 +87,19 @@ p#decouvrir {
 }
 
 .num {
-  background-color: $purple;
-  border-radius: 50%;
-  height: 19px;
-  width: 19px;
-  text-align: center;
+  width: 24px;
+  height: 24px;
   position: absolute;
-  color: $white;
-  left: -2%;
+  top: 0px;
+  bottom: 0px;
+  left: -12px;
+  margin: auto;
+  border-radius: 60px;
+  background-color: $purple;
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 14px;
 }
 
 .restaurant {
@@ -304,7 +309,7 @@ img {
   align-items: center;
 }
 .titreFonction {
- display: flex;
+  display: flex;
   justify-content: flex-start;
   font-weight: 700;
   font-size: 17px;
@@ -330,14 +335,19 @@ img {
   background: $lightgrey;
 }
 .num {
-  background-color: $purple;
-  border-radius: 50%;
-  height: 19px;
-  width: 19px;
-  text-align: center;
+  width: 24px;
+  height: 20px;
   position: absolute;
-  color: $white;
-  left: -1%;
+  top: 0px;
+  bottom: 0px;
+  left: -12px;
+  margin: auto;
+  border-radius: 60px;
+  background-color: $purple;
+  color: white;
+  text-align: center;
+  padding-top: 4px;
+  font-size: 14px;
 }
 .image {
   border-radius: 15px 15px 0 0;
@@ -382,11 +392,7 @@ img {
   align-items: center;
 }
 section.Fonctionnement {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 70%;
-  padding-left: 16%;
+  padding: 0 15% 0 15%;
 }
 
 .categorie {
