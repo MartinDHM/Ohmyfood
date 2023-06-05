@@ -18,7 +18,7 @@
         }
         
     }
-@keyframes moveInRight {
+@keyframes moveInleft {
     0% {
         opacity: 0;
         transform: translateX(-10px);
@@ -47,7 +47,7 @@
         transform: scale(0);
      } 
     }
-    @keyframes mooveinLeft {
+    @keyframes mooveinRight {
     0% {
         transform: translate(0);
     }
