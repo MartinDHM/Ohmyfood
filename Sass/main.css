@@ -375,6 +375,7 @@ i.fa-solid.fa-heart.bg {
   background: linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
   background: -webkit- linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
   left: 0px;
@@ -674,6 +675,7 @@ i.fa-solid.fa-heart.bg {
   background: linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
   background: -webkit- linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
   left: -31px;
@@ -833,6 +835,7 @@ button#CommandeBtn {
     background: linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
     background: -webkit- linear-gradient(to top, #9356DC -14%, #FF79DA 128%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
     left: -31px;
@@ -846,7 +849,7 @@ button#CommandeBtn {
     background-color: #f7f7f7;
     height: 100%;
     margin-left: 250px;
-    right: 20%;
+    right: 236px;
     width: 91%;
     margin: 0 15% 0 24%;
   }
