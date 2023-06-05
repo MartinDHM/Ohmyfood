@@ -157,16 +157,24 @@ button#CommandeBtn {
 .positionPlat {
   animation-name: moveInleft;
   animation-duration: 2s;
- 
+  animation-fill-mode: forwards;
+  opacity: 0;
+  
 }
 .positionPlat2 {
   animation-name: moveInleft;
+  animation-duration: 2s;
   animation-delay: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 
 }
 .positionPlat3 {
   animation-name: moveInleft;
+  animation-duration: 2s;
   animation-delay: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
  
 }
 
@@ -242,23 +250,23 @@ h2.EPD {
 .positionPlat {
   display: flex;
   flex-direction: column;
- 
-  animation-name: moveInleft;
-  animation-duration: 2s;
+  animation-name: moveInleft 500ms;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 .positionPlat2 {
   display: flex;
   flex-direction: column;
- 
-  animation-name: moveInleft;
-  animation-duration: 4s;
+  animation-name: moveInleft 500ms;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 .positionPlat3 {
   display: flex;
   flex-direction: column;
-
-  animation-name: moveInleft;
-  animation-duration: 6s;
+  animation-name: moveInleft 500ms;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
 button#CommandeBtn {
   font-weight: bold;
@@ -369,16 +377,19 @@ h2.EPD {
   display: flex;
   align-items: center;
   align-content: center;
+  opacity: 0;
 }
 .positionPlat2 {
   display: flex;
   align-items: center;
   align-content: center;
+  opacity: 0;
 }
 .positionPlat3 {
   display: flex;
   align-items: center;
   align-content: center;
+  opacity: 0;
 }
 h2.EPD {
   font-weight: 300;
