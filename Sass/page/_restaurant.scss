@@ -256,21 +256,21 @@ h2.EPD {
 .positionPlat {
   display: flex;
   flex-direction: column;
-  animation-name: moveInleft 500ms;
+  animation-name: moveInleft ;
   animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 .positionPlat2 {
   display: flex;
   flex-direction: column;
-  animation-name: moveInleft 500ms;
+  animation-name: moveInleft ;
   animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 .positionPlat3 {
   display: flex;
   flex-direction: column;
-  animation-name: moveInleft 500ms;
+  animation-name: moveInleft ;
   animation-delay: 6s;
   animation-fill-mode: forwards;
 }
