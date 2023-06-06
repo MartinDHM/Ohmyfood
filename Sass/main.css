@@ -69,7 +69,7 @@ img#logoTaille {
 
 .Retour {
   position: absolute;
-  left: 10px;
+  padding-left: 1%;
   top: 20px;
 }
 
@@ -117,7 +117,7 @@ ul.PositionFooter {
   }
   ul.PositionFooter {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     gap: 29px;
     padding-top: 16px;
   }
@@ -126,6 +126,14 @@ ul.PositionFooter {
     color: #ffffff;
     display: flex;
     flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1440px) {
+  ul.PositionFooter {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    padding-top: 16px;
   }
 }
 body {
@@ -400,6 +408,7 @@ i.fa-solid.fa-heart.bg:hover {
   animation: disappear 200ms;
   animation-delay: 3s;
   animation-fill-mode: forwards;
+  max-width: 1440px;
 }
 
 .point1 {
@@ -690,14 +699,14 @@ i.fa-solid.fa-heart.bg {
   padding: 21px;
   font-weight: bold;
   text-align: center;
-  margin-top: 16px;
+  margin-top: 10px;
   margin-left: 19px;
-  width: 76%;
   font-size: 14px;
   height: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   background: #ffffff;
   text-align: start;
+  margin-right: 16px;
 }
 
 .titrePlat {
@@ -882,7 +891,7 @@ button#CommandeBtn {
     text-align: center;
     margin-top: 16px;
     margin-left: 72px;
-    width: 76%;
+    margin-right: 72px;
     font-size: 14px;
     height: 8px;
     margin-bottom: 12px;
@@ -953,12 +962,12 @@ button#CommandeBtn {
     font-weight: bold;
     text-align: center;
     margin-top: 16px;
-    width: 76%;
     font-size: 14px;
     height: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     background: #ffffff;
     text-align: start;
+    margin-right: 74px;
     margin-left: 74px;
   }
   button#CommandeBtn {
@@ -1010,12 +1019,13 @@ button#CommandeBtn {
     text-align: center;
     margin-top: 16px;
     margin-left: 14px;
-    width: 45rem;
+    margin-right: 14px;
     font-size: 14px;
     height: 8px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     background: #ffffff;
     text-align: start;
+    width: 54rem;
   }
   .positionPlat {
     display: flex;
