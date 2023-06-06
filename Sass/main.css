@@ -14,6 +14,14 @@
     width: 60px;
   }
 }
+@keyframes validreverse {
+  from {
+    width: 60px;
+  }
+  to {
+    width: 0px;
+  }
+}
 @keyframes moveInleft {
   0% {
     opacity: 0;
@@ -785,7 +793,11 @@ button#CommandeBtn {
   justify-content: center;
   align-items: center;
   width: 0;
-  right: 7px;
+  right: 0px;
+  animation: validreverse 500ms;
+  transform-origin: 100%;
+  transition: all 500ms;
+  visibility: hidden;
 }
 
 .encadrementRestaurant:hover .validation {
@@ -796,6 +808,7 @@ button#CommandeBtn {
   transform-origin: 100%;
   right: 0;
   animation-fill-mode: forwards;
+  visibility: visible;
 }
 .encadrementRestaurant:hover .prix {
   position: absolute;
@@ -804,6 +817,7 @@ button#CommandeBtn {
   font-size: 12px;
   animation: mooveinRight 500ms;
   animation-fill-mode: forwards;
+  animation-duration: 300ms;
 }
 
 .positionPlat {

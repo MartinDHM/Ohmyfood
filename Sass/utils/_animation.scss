@@ -18,6 +18,15 @@
         }
         
     }
+@keyframes validreverse {
+        from{
+            width: 60px;
+        }
+        to{
+            width: 0px;
+            }
+            
+        }
 @keyframes moveInleft {
     0% {
         opacity: 0;

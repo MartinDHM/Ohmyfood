@@ -136,7 +136,11 @@ button#CommandeBtn {
   height: 50px;
   @include flex;
   width: 0;
-  right: 7px;
+  right: 0px;
+  animation: validreverse 500ms;
+  transform-origin: 100%;
+  transition: all 500ms;
+  visibility: hidden;
  
 }
 .encadrementRestaurant:hover {
@@ -148,6 +152,7 @@ button#CommandeBtn {
   transform-origin: 100%;
   right: 0;
   animation-fill-mode: forwards;
+  visibility: visible;
 }
 .prix {
   position: absolute;
@@ -156,9 +161,10 @@ button#CommandeBtn {
   font-size: 12px;
   animation: mooveinRight 500ms;
   animation-fill-mode: forwards; 
+  animation-duration: 300ms;
+}
 }
 
-}
 .positionPlat {
   animation-name: moveInleft;
   animation-duration: 2s;
