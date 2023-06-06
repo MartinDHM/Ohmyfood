@@ -93,6 +93,9 @@ i.fa-solid.fa-heart.bg {
   right: 25px;
   top: 25px;
   font-size: 12px;
+  animation: validreverse 500ms;
+  transition: all 500ms;
+  
    
 }
 h2.EPD  {
@@ -162,6 +165,7 @@ button#CommandeBtn {
   animation: mooveinRight 500ms;
   animation-fill-mode: forwards; 
   animation-duration: 300ms;
+  visibility: visible;
 }
 }
 
