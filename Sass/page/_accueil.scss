@@ -152,6 +152,12 @@ p#decouvrir {
   color: black;
   font-family: auto;
   font-weight: bold;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .nouveau {
   content: "Nouveau";
@@ -166,13 +172,19 @@ p#decouvrir {
 
 }
 .text {
-  display: flex;
-  margin: 0;
-  margin-top: 4px;
-  font-weight: 300;
-  font-size: 12px;
-  margin-left: 18px;
-  color: black;
+    display: flex;
+    margin: 0;
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 18px;
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 section.Fonctionnement {
   padding: 0px 15% 0 15%;
@@ -403,12 +415,18 @@ img {
   margin-left: -55%;
 }
 
-.titre {
-  display: flex;
-  margin: 0;
-  margin-top: 20px;
-  margin-left: 17px;
-  color: black;
+.titre { 
+    display: flex;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 17px;
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .text {
   display: flex;
@@ -418,7 +436,14 @@ img {
   font-size: 12px;
   margin-left: 18px;
   color: black;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
+
 .encadrementResto {
     padding: 2px;
     width: 42%;

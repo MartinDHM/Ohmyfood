@@ -308,6 +308,12 @@ h1.ReservationTitle {
   color: black;
   font-family: auto;
   font-weight: bold;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .nouveau {
@@ -330,6 +336,12 @@ h1.ReservationTitle {
   font-size: 12px;
   margin-left: 18px;
   color: black;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 section.Fonctionnement {
@@ -574,6 +586,12 @@ i.fa-solid.fa-heart.bg:hover {
     margin-top: 20px;
     margin-left: 17px;
     color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
   }
   .text {
     display: flex;
@@ -583,6 +601,12 @@ i.fa-solid.fa-heart.bg:hover {
     font-size: 12px;
     margin-left: 18px;
     color: black;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
   }
   .encadrementResto {
     padding: 2px;
