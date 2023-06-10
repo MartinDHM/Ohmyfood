@@ -114,7 +114,6 @@ ul.PositionFooter {
 .titreFooter {
   margin-right: 48px;
   margin-left: 16px;
-  margin-top: 10px;
   font-size: 17px;
   font-family: Shrikhand;
   font-style: italic;
@@ -693,11 +692,13 @@ i.fa-solid.fa-heart.bg:hover {
   padding-top: 23px;
   margin-right: 7px;
   font-family: Shrikhand;
+  margin-left: 34px;
 }
 
 .coeurResto {
   margin-top: 39px;
   font-size: 25px;
+  padding-left: 12px;
 }
 
 i.fa-solid.fa-heart.bg {
@@ -800,6 +801,7 @@ button#CommandeBtn {
   margin-top: 19px;
   cursor: pointer;
   width: 165px;
+  margin-bottom: 30px;
 }
 
 .validation {
@@ -872,8 +874,9 @@ button#CommandeBtn {
     font-family: "roboto", sans-serif;
   }
   .coeurResto {
-    margin-top: 45px;
+    margin-top: 39px;
     font-size: 25px;
+    padding-left: 12px;
   }
   i.fa-solid.fa-heart.bg {
     opacity: 0;
@@ -899,12 +902,12 @@ button#CommandeBtn {
     width: 78%;
     margin: 0px 15% 0 30%;
   }
-  .car .titreCarte {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
+  .titreCarte {
+    font-size: 20px;
+    padding-top: 23px;
+    margin-right: 7px;
     font-family: Shrikhand;
+    margin-left: 34px;
   }
   .Titre {
     display: flex;
@@ -1003,8 +1006,8 @@ button#CommandeBtn {
     height: 8px;
     background: #ffffff;
     text-align: start;
-    margin-right: 74px;
-    margin-left: 74px;
+    margin-right: 14%;
+    margin-left: 14%;
   }
   button#CommandeBtn {
     font-weight: bold;
@@ -1026,7 +1029,7 @@ button#CommandeBtn {
   h2.EPD {
     font-weight: 300;
     font-size: 16px;
-    margin-left: 78px;
+    margin-left: 14%;
     border-bottom: 2px solid #99e2d0;
     width: 28px;
     font-family: "Roboto";
@@ -1083,7 +1086,7 @@ button#CommandeBtn {
   h2.EPD {
     font-weight: 300;
     font-size: 16px;
-    margin-right: 59rem;
+    margin-right: 76rem;
     border-bottom: 2px solid #99e2d0;
     width: 28px;
   }
