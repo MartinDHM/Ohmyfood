@@ -216,10 +216,10 @@ li {
   justify-content: center;
   align-items: center;
 }
-#reservationBtn:hover {
+.reservationBtn:hover {
   opacity: 0.8;
   box-shadow: 0px 8px 27px 0px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+  cursor: pointer;;
 }
 span {
   font-weight: bold;
