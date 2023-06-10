@@ -59,7 +59,6 @@ p#decouvrir {
 .titreFonction {
   display: flex;
   justify-content: flex-start;
-  margin-left: 30px;
   font-weight: 700;
   
 }
@@ -87,10 +86,10 @@ p#decouvrir {
   font-weight: bold;
   text-align: center;
   margin-top: 16px;
-  width: 70%;
+  width: 91%;
   font-size: 14px;
   margin-bottom: 16px;
-  background: $lightgrey;
+  background: #f6f6f6;
 }
 .encadrement:hover {
   i{
@@ -174,6 +173,9 @@ p#decouvrir {
   margin-left: 18px;
   color: black;
 }
+section.Fonctionnement {
+  padding: 1px 11% 0 16%;
+}
 
 #titreResto {
   margin: 0;
@@ -183,8 +185,8 @@ p#decouvrir {
   padding-top: 15px;
 }
 .sectionRestaurant {
-  padding: 17px 8% 0 8%;
-  width: 84%;
+  padding: 17px 12% 0 16%;
+  width: 74%; 
   background-color: $lightgrey;
 }
 
@@ -345,8 +347,9 @@ img {
   justify-content: flex-start;
   font-weight: 700;
   font-size: 17px;
-  
+  margin-left: 18px;
 }
+  
 .section-title {
   font-size: 24px;
   font-weight: 700;
@@ -434,7 +437,7 @@ img {
   align-items: center;
 }
 section.Fonctionnement {
-  padding: 0 1% 0 0%;
+  padding: 0px 12% 0 15%;
 }
 
 .categorie {
@@ -479,8 +482,8 @@ p#decouvrir {
 }
 @media screen and (min-width: 768px)  {
   .sectionRestaurant {
-    padding: 16px 4% 0 4%;
-    width: 92%;
+    padding: 17px 11% 0 17%;
+    width: 72%;
     background-color: #F6F6F6;
 }
 }
@@ -491,6 +494,6 @@ p#decouvrir {
   background-color: #F6F6F6;
 }
 section.Fonctionnement {
-  padding: 0px 12% 0 14%;
+  padding: 0px 12% 0 15%;
 }
 }
