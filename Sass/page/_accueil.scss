@@ -60,6 +60,7 @@ p#decouvrir {
   display: flex;
   justify-content: flex-start;
   font-weight: 700;
+  margin-left: -2px;
   
 }
   h1.ReservationTitle {
@@ -174,7 +175,7 @@ p#decouvrir {
   color: black;
 }
 section.Fonctionnement {
-  padding: 1px 11% 0 16%;
+  padding: 0px 15% 0 15%;
 }
 
 #titreResto {
@@ -185,8 +186,8 @@ section.Fonctionnement {
   padding-top: 15px;
 }
 .sectionRestaurant {
-  padding: 17px 12% 0 16%;
-  width: 74%; 
+  padding: 17px 16% 0 15%;
+  width: 69%;   
   background-color: $lightgrey;
 }
 
@@ -437,7 +438,7 @@ img {
   align-items: center;
 }
 section.Fonctionnement {
-  padding: 0px 12% 0 15%;
+  padding: 0px 12% 0 13%;
 }
 
 .categorie {
@@ -482,18 +483,18 @@ p#decouvrir {
 }
 @media screen and (min-width: 768px)  {
   .sectionRestaurant {
-    padding: 17px 11% 0 17%;
-    width: 72%;
+    padding: 17px 16% 0 15%;
+    width: 69%;
     background-color: #F6F6F6;
 }
 }
 @media screen and (min-width: 1440px)  {
 .sectionRestaurant {
   padding: 17px 11% 0 17%;
-  width: 72%;
+  width: 69%;
   background-color: #F6F6F6;
 }
 section.Fonctionnement {
-  padding: 0px 12% 0 15%;
+  padding: 0px 14% 0 16%;
 }
 }
