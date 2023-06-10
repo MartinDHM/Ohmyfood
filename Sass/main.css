@@ -164,7 +164,6 @@ body {
 .mainContainer {
   width: 100%;
   max-width: 1440px;
-  min-width: 320px;
 }
 
 .iconSpace {
@@ -670,14 +669,14 @@ i.fa-solid.fa-heart.bg:hover {
 }
 @media screen and (min-width: 768px) {
   .sectionRestaurant {
-    padding: 17px 16% 0 15%;
-    width: 69%;
+    padding: 12px 15% 0 15%;
+    width: 70%;
     background-color: #F6F6F6;
   }
 }
 @media screen and (min-width: 1440px) {
   .sectionRestaurant {
-    padding: 17px 11% 0 17%;
+    padding: 18px 14% 0 17%;
     width: 69%;
     background-color: #F6F6F6;
   }
