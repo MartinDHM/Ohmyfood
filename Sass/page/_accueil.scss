@@ -186,7 +186,7 @@ p#decouvrir {
     text-align: left;
 }
 section.Fonctionnement {
-  padding: 0px 15% 0 15%;
+  padding: 0px 8% 0 9%;
 }
 
 #titreResto {
@@ -197,9 +197,10 @@ section.Fonctionnement {
   padding-top: 15px;
 }
 .sectionRestaurant {
-  padding: 17px 16% 0 15%;
-  width: 69%;   
+  padding: 17px 7% 0 7%;
+  width: 86%;
   background-color: $lightgrey;
+   
 }
 
 a {
@@ -507,8 +508,8 @@ p#decouvrir {
 }
 @media screen and (min-width: 768px)  {
   .sectionRestaurant {
-    padding: 17px 16% 0 15%;
-    width: 69%;
+    padding: 17px 10% 0 9%;
+    width: 81%;
     background-color: #F6F6F6;
 }
 }

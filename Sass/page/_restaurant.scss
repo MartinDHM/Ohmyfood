@@ -118,6 +118,7 @@ h2.EPD  {
   display: flex;
   justify-content: center;
 }
+
 button#CommandeBtn {
   font-weight: bold;
   color: $white;
@@ -136,6 +137,11 @@ button#CommandeBtn {
   cursor: pointer;
   width: 165px;
   margin-bottom: 30px;
+}
+button#CommandeBtn:hover { 
+    opacity: 0.8;
+    box-shadow: 0px 8px 27px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;;
 }
 .validation {
   position: absolute;
