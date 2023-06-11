@@ -884,6 +884,7 @@ button#CommandeBtn:hover {
   animation-duration: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
+  padding-bottom: 20px;
 }
 
 .positionPlat2 {
@@ -892,6 +893,7 @@ button#CommandeBtn:hover {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
+  padding-bottom: 20px;
 }
 
 .positionPlat3 {
@@ -900,6 +902,7 @@ button#CommandeBtn:hover {
   animation-delay: 4s;
   animation-fill-mode: forwards;
   opacity: 0;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -978,6 +981,7 @@ button#CommandeBtn:hover {
     animation-name: moveInleft;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+    padding-bottom: 20px;
   }
   .positionPlat2 {
     display: flex;
@@ -985,6 +989,7 @@ button#CommandeBtn:hover {
     animation-name: moveInleft;
     animation-delay: 4s;
     animation-fill-mode: forwards;
+    padding-bottom: 20px;
   }
   .positionPlat3 {
     display: flex;
@@ -992,6 +997,7 @@ button#CommandeBtn:hover {
     animation-name: moveInleft;
     animation-delay: 6s;
     animation-fill-mode: forwards;
+    padding-bottom: 20px;
   }
   button#CommandeBtn {
     font-weight: bold;
@@ -1104,6 +1110,7 @@ button#CommandeBtn:hover {
     align-items: center;
     align-content: center;
     opacity: 0;
+    padding-bottom: 20px;
   }
   .positionPlat2 {
     display: flex;
@@ -1116,6 +1123,7 @@ button#CommandeBtn:hover {
     align-items: center;
     align-content: center;
     opacity: 0;
+    padding-bottom: 20px;
   }
   h2.EPD {
     font-weight: 300;
@@ -1123,5 +1131,6 @@ button#CommandeBtn:hover {
     margin-right: 76rem;
     border-bottom: 2px solid #99e2d0;
     width: 28px;
+    padding-bottom: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
